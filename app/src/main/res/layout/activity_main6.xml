@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Main6Activity">
+
+    <RelativeLayout
+        android:id="@+id/bg"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/ubur">
+
+        <View
+            android:id="@+id/gambar"
+            android:layout_width="match_parent"
+            android:layout_height="180dp"
+            android:background="@drawable/penghargaan2"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/gambar"
+            android:id="@+id/tulisan"
+            android:text="EXPERIENCE"
+            android:textSize="40dp"
+            android:textColor="#EEEAEA"
+            android:gravity="center"
+            android:layout_marginTop="20dp"/>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="8dp"
+            android:layout_below="@id/tulisan"
+            android:id="@+id/card_bio1"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Certificate HTML"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/html1"
+                    android:textColor="#14D554"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:src="@drawable/sertefikat3"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+        <android.support.v7.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_margin="10dp"
+            android:layout_below="@id/card_bio1"
+            android:id="@+id/card_bio2"
+            app:cardCornerRadius="16dp"
+            app:cardElevation="4dp"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="24dp">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:text="Certificate PHP"
+                    android:textSize="32sp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:id="@+id/php1"
+                    android:textColor="#08B7D5"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="20dp"/>
+                <ImageView
+                    android:layout_width="match_parent"
+                    android:layout_height="260dp"
+                    android:src="@drawable/sertefikat4"/>
+
+
+            </LinearLayout>
+        </android.support.v7.widget.CardView>
+
+
+
+
+    </RelativeLayout>
+
+
+
+</ScrollView>

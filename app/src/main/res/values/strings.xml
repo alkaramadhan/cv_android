@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">CV_Kelas12</string>
+    <string name="nama_tk">TK Tugu Ibu 1 Depok</string>
+    <string name="nama_sd">SD Tugu Ibu 1 Depok</string>
+    <string name="nama_smp">SMP Tugu Ibu 1 Depok</string>
+    <string name="nama_smk">SMK Taruna Bhakti </string>
+    <string name="nama">Nama</string>
+    <string name="deskripsi">Text</string>
+</resources>
